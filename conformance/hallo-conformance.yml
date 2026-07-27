@@ -1,0 +1,47 @@
+generated: '2026-07-19'
+method: searched
+source: https://www.hallo.ai/
+summary: >-
+  Hallo publishes an enterprise security and compliance posture on its marketing site.
+  There is no public developer API or OpenAPI, so cross-cutting API standards
+  (OAuth2/OIDC, RFC 9457, pagination, idempotency) cannot be asserted from a spec; the
+  entries below capture the provider's stated organizational compliance certifications
+  and AI-governance posture only.
+compliance_program:
+  published: true
+  evidence_url: https://www.hallo.ai/
+  certifications:
+  - name: SOC 2 Type 2
+    stated: true
+  - name: ISO 27001
+    stated: true
+  - name: GDPR
+    stated: true
+  - name: EU AI Act
+    stated: true
+  ai_governance:
+  - control: Third-party AI bias audits
+    provider: Warden AI
+    stated: true
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: certification stated on hallo.ai
+- id: iso-27001
+  conforms: true
+  evidence: certification stated on hallo.ai
+- id: gdpr
+  conforms: true
+  evidence: compliance stated on hallo.ai
+- id: eu-ai-act
+  conforms: true
+  evidence: compliance stated on hallo.ai
+- id: oauth2
+  conforms: false
+  evidence: no public OpenAPI / securitySchemes to assert
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: no public API surface
+notes: >-
+  Certifications are self-stated by Hallo on its public website and were not independently
+  verified against an auditor report or a trust portal (no trust.hallo.ai was found).

@@ -1,8 +1,32 @@
 aid: hallo
 name: Hallo
-description: Hallo is a company surfaced as a portfolio company of battery-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hallo is an AI-powered language assessment and language-learning company backed by
+  Battery Ventures. Its enterprise platform delivers automated, AI-driven proficiency
+  assessments across speaking, writing, listening, and reading in 80+ languages, with
+  CEFR-aligned scoring, detailed feedback (fluency, vocabulary, grammar, pronunciation,
+  coherence), real-time score reports and dashboards, and proctoring / anti-cheating for
+  high-stakes hiring, placement testing, and employee development. Hallo integrates with
+  major applicant-tracking systems (Greenhouse, Ashby, Workday, SmartRecruiters, Lever,
+  SuccessFactors, Recruitee, and others) and runs assessments across 160+ countries, with
+  a stated SOC 2 Type 2, ISO 27001, GDPR, and EU AI Act compliance posture. The company
+  also operates a consumer language-learning app with AI tutors and native-speaker
+  practice. Hallo does not publish a public developer API or OpenAPI specification; its
+  integration surface is delivered through prebuilt ATS connectors and enterprise
+  onboarding rather than a self-serve developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/hallo/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.hallo.ai/wp-content/uploads/Hallo@3x.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +35,49 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Language Assessment
+- Language Learning
+- Artificial Intelligence
+- Recruiting
+- Human Resources
+- Education
+- Speech Recognition
 apis: []
+common:
+- type: DomainSecurity
+  url: security/hallo-domain-security.yml
+- type: Website
+  url: https://www.hallo.ai/
+- type: Pricing
+  url: https://www.hallo.ai/pricing/
+- type: SignUp
+  url: https://www.hallo.ai/demo/
+- type: TermsOfService
+  url: https://www.hallo.ai/terms-of-service/
+- type: PrivacyPolicy
+  url: https://www.hallo.ai/privacy-policy/
+- type: Blog
+  url: https://www.hallo.ai/blog/
+- type: Support
+  url: https://www.hallo.ai/contact/
+- type: Integrations
+  url: https://www.hallo.ai/integrations/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/hallo.
+- type: Conformance
+  url: conformance/hallo-conformance.yml
+- type: Compliance
+  url: conformance/hallo-conformance.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
