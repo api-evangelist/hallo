@@ -15,6 +15,17 @@ description: >-
   integration surface is delivered through prebuilt ATS connectors and enterprise
   onboarding rather than a self-serve developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/hallo/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
