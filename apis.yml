@@ -58,6 +58,8 @@ tags:
 - Speech Recognition
 apis: []
 common:
+- type: Plans
+  url: plans/hallo-plans-pricing.yml
 - type: DomainSecurity
   url: security/hallo-domain-security.yml
 - type: Website
