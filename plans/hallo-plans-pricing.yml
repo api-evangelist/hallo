@@ -38,3 +38,33 @@ plans:
   unit: 1,000+ tests per month
   included_quota: Everything in Business, plus test customization, sub-organizations, SSO, dedicated CS
     manager
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models: []
+  units: []
+  plans:
+  - name: Team
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - other
+    periods:
+    - none
+  - name: Business
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - other
+    periods:
+    - none
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units:
+    - other
+    periods:
+    - none
