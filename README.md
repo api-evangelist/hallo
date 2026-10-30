@@ -64,6 +64,91 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hallo is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Hallo is an AI-powered language assessment and language-learning company backed by Battery Ventures. Its enterprise platform delivers automated, AI-driven proficiency assessments across speaking, writing, listening, and reading in 80+ languages, with CEFR-aligned scoring, detailed feedback (fluency, vocabulary, grammar, pronunciation, coherence), real-time score reports and dashboards, and proctoring / anti-cheating for high-stakes hiring, placement testing, and employee development. Hallo integrates with major applicant-tracking systems (Greenhouse, Ashby, Workday, SmartRecruiters, Lever, SuccessFactors, Recruitee, and others) and runs assessments across 160+ countries, with a stated SOC 2 Type 2, ISO 27001, GDPR, and EU AI Act compliance posture. The company also operates a consumer language-learning app with AI tutors and native-speaker practice. Hallo does not publish a public developer API or OpenAPI specification; its integration surface is delivered through prebuilt ATS connectors and enterprise onboarding rather than a self-serve developer portal.
 
-Backed by: battery-ventures
+**Areas:** Company · Language Assessment · Language Learning · Artificial Intelligence · Recruiting · Human Resources · Education · Speech Recognition
+
+## Hallo on APIs.io
+
+Everything profiled for Hallo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hallo/](https://apis.io/providers/hallo/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hallo Domain Security](https://apis.io/security/hallo/hallo-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hallo Plans Pricing](https://apis.io/plans/hallo/hallo-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.hallo.ai/)
+- [Pricing](https://www.hallo.ai/pricing/)
+- [Sign up](https://www.hallo.ai/demo/)
+- [Support](https://www.hallo.ai/contact/)
+- [Blog](https://www.hallo.ai/blog/)
+- [Terms of service](https://www.hallo.ai/terms-of-service/)
+- [Privacy policy](https://www.hallo.ai/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 25.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 84.2 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 21.8** — Education & Research
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hallo/](https://apis.io/providers/hallo/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hallo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hallo/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
